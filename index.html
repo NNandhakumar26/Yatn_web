@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2226771695';
+    var serviceWorkerVersion = '95803485';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -46,28 +46,29 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
          application. For more information, see:
          https://developers.google.com/web/fundamentals/primers/service-workers -->
-         <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-  
          <script type="module">
-          // Import the functions you need from the SDKs you need
-          import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
-          // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js";
+                    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+
           // TODO: Add SDKs for Firebase products that you want to use
           // https://firebase.google.com/docs/web/setup#available-libraries
+        
+          // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
           const firebaseConfig = {
-            apiKey: "AIzaSyCohMpmC71tEq74PjPdRHMN2aCbEcXWpa8",
-            authDomain: "yatn-1312a.firebaseapp.com",
-            projectId: "yatn-1312a",
-            storageBucket: "yatn-1312a.appspot.com",
-            messagingSenderId: "162033228761",
-            appId: "1:162033228761:web:74f997a6a1b9186bbb17c8",
-            measurementId: "G-DQYWX9TE2Q"
+            apiKey: "AIzaSyDMc3qj2E5xxDEkicvCHBX8FvBPazt9duc",
+            authDomain: "yatn-d4c71.firebaseapp.com",
+            projectId: "yatn-d4c71",
+            storageBucket: "yatn-d4c71.appspot.com",
+            messagingSenderId: "944279493997",
+            appId: "1:944279493997:web:e02d62722fba68fe7d0e64",
+            measurementId: "G-6CH323JQZR"
           };
         
           // Initialize Firebase
           const app = initializeApp(firebaseConfig);
           // const analytics = getAnalytics(app);
         </script>
+
 <!-- import ZoomMtg dependencies -->
 <script src="https://source.zoom.us/1.9.9/lib/vendor/react.min.js"></script>
 <script src="https://source.zoom.us/1.9.9/lib/vendor/react-dom.min.js"></script>
